@@ -7,12 +7,44 @@ font-style: normal;
 font-weight: 400;
 } 
 
+p,h1,h2,h3,h4,h5,h6 {
+margin-top: 0;
+margin-bottom: 0;
+}
+
 ul {
+margin-top: 0;
+margin-bottom: 0;
+padding-left: 0;
 list-style: none;
 }
 
 a {
 text-decoration: none;
+color: currentColor;
+}
+button {
+cursor: pointer;
+}
+img {
+display: block;
+}
+address {
+font-style: normal;
+}
+.container {
+width: 1158px;
+margin: 0 auto;  
+padding-left: 32px;
+padding-right: 32px;
+outline: 2px solid red;  
+}
+
+/**=============== HEADER=============**/
+
+.header-container {
+display: flex;
+
 }
 
 .header-navigation-logo-blue {
@@ -24,6 +56,13 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+}
+
+.header-navigation{
+display: flex;
+gap: 40px;
+margin-top: 24px;
+margin-bottom: 24px;
 }
 
 .header-navigation-logo {
@@ -49,13 +88,20 @@ color:#404bbf;
 
 .header-menu {
 font-style: normal;
+display: flex;
+gap: 40px;
 }
 
 .header-address {
 font-style: normal;
+margin-left: auto;
 }
 .header-menu-address {
 font-style: normal;
+display: flex;
+gap: 40px;
+margin-top: 24px;
+margin-bottom: 24px;
 }
 
 .header-address-list {
@@ -65,6 +111,7 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 font-style: normal;
+display: flex;
 }
 
 .header-address-list:hover {
@@ -74,9 +121,12 @@ color:#404bbf;
 .header-address-list:focus {
 color:#404bbf;
 }
+/**===================================**/
 
+/**=============== TITLE=============**/
 .title {
 background-color: #2e2f42;
+padding: 120px;
 }
 
 .title-header {
@@ -87,7 +137,10 @@ font-weight: 700;
 line-height: 1.07;
 letter-spacing: 1.12px;
 background-color:#2e2f42;
+max-width: 496px;
+margin: 0 auto;
 }
+
 .title-header-btn {
 color: #FFF;
 font-family: inherit;
@@ -97,14 +150,31 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.64px;
 cursor: pointer;
+padding: 16px 32px;
+padding-top: 48px;
+display: flex; 
+justify-content: center; 
+align-items: center; 
 }
+
 .title-header-btn:hover {
 background-color: #404BBF;
 }
 .title-header-btn:focus {
 background-color: #404BBF;
 }
+/**===================================**/
 
+/**==========DESCRIPTION=============**/
+
+
+.description-submenu {
+display: flex;
+gap: 24px;
+}
+.description-list {
+width: 264px;
+}
 .description-title {
 color: #2E2F42;
 font-size: 20px;
@@ -112,7 +182,6 @@ font-weight: 500;
 line-height: 1.2; 
 letter-spacing: 0.4px;
 }
-
 
 .description-text {
 color: #434455;
@@ -124,6 +193,8 @@ letter-spacing: 0.32px;
 .team {
 background-color: #F4F4FD;
 }
+/**===================================**/
+/**==============TEAM=================**/
 
 .team-title {
 color: #2E2F42;
@@ -136,9 +207,13 @@ letter-spacing: 0.02em;
 }
 .team-submenu {
 background-color: #FFFFFF;
+display: flex;
+gap: 24px;
 }
 .team-submenu-list {
-background-color: #FFFFFF;    
+background-color: #FFFFFF;  
+border-radius: 0px 0px 4px 4px;
+background:  #FFF;  
 }
 .team-name {
 color: #2E2F42;
@@ -155,7 +230,10 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.32px;
 }
+/**===================================**/
 
+
+/**=============PORTFOLIO=============**/
 .portfolio {
 background-color: #F4F4FD;
 }
@@ -171,6 +249,8 @@ letter-spacing: 0.72px;
 
 .portfolio-submenu {
 background-color: #FFFFFF;
+display: flex;
+flex-wrap: wrap;
 }
 
 .portfolio-picture-name {
@@ -188,7 +268,9 @@ font-weight: 400;
 line-height: 1.5; 
 letter-spacing: 0.32px;
 }
+/**===================================**/
 
+/**=============FOOTER==============**/
 .footer {
 background-color:#2e2f42;
 }
@@ -219,3 +301,5 @@ text-transform: uppercase;
 line-height: 1.5;
 letter-spacing: 0.32px;
 }
+/**==============================**/
+
