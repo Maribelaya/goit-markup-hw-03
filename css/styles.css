@@ -58,6 +58,7 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+margin-right: 76px;
 }
 
 .header-navigation{
@@ -66,7 +67,6 @@ gap: 40px;
 margin-top: 24px;
 margin-bottom: 24px;
 align-items: center;
-margin-right: 76px;
 }
 
 .header-navigation-logo {
@@ -80,7 +80,9 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em; 
-font-style: normal;  
+font-style: normal; 
+padding-top: 24px; 
+padding-bottom: 24px;
 }
 
 .header-menu-list:hover {
@@ -131,7 +133,7 @@ color:#404bbf;
 /**=============== TITLE=============**/
 .title {
 background-color: #2e2f42;
-padding: 120px;
+padding: 188px 0;
 }
 
 .title-header {
@@ -144,6 +146,16 @@ letter-spacing: 1.12px;
 background-color:#2e2f42;
 max-width: 496px;
 margin: 0 auto;
+
+}
+.button {
+min-width: 169px;
+display: block; 
+margin: 0 auto;
+margin-bottom: 16px;
+border: none;
+border-radius: 4px; 
+margin-top: 64px;
 }
 
 .title-header-btn {
@@ -156,11 +168,7 @@ line-height: 1.5;
 letter-spacing: 0.64px;
 cursor: pointer;
 padding: 16px 32px;
-display: block; 
-margin: 0 auto;
-margin-bottom: 16px;
-border: none;
-border-radius: 4px;
+
 }
 
 .title-header-btn:hover {
@@ -173,6 +181,16 @@ background-color: #404BBF;
 
 /**==========DESCRIPTION=============**/
 
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
 
 .description-submenu {
 display: flex;
@@ -253,6 +271,8 @@ padding: 32px 0;
 /**=============PORTFOLIO=============**/
 .portfolio {
 background-color: #F4F4FD;
+padding-top: 120px; 
+padding-bottom: 120px;
 }
 .portfolio-title {
 color:#2E2F42;
@@ -303,7 +323,6 @@ container-foto {
 .footer {
 background-color:#2e2f42;
 padding: 100px 0;
-
 }
 
 .footer-logo-web {
@@ -319,6 +338,8 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+margin-bottom: 16px;
+display: inline-block;
 }
 
 .footer-logo {
