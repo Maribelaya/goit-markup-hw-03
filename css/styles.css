@@ -240,6 +240,8 @@ button {
 /**==============TEAM=================**/
 .team {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-title {
@@ -296,6 +298,8 @@ button {
 /**=============PORTFOLIO=============**/
 .portfolio {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .portfolio-title {
