@@ -365,6 +365,7 @@ button {
     line-height: 1.17;
     letter-spacing: 0.03em;
     display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo {
