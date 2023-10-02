@@ -366,6 +366,7 @@ button {
     letter-spacing: 0.03em;
     display: inline-block;
     margin-bottom: 16px;
+    text-transform: uppercase;
 }
 
 .footer-logo {
